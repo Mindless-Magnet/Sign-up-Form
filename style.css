@@ -100,21 +100,97 @@ body, html {
     height: 30vh;
     padding-left: 2rem;
     padding-right: 16rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 .signup{
     background-color:white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     height: 30vh;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
 
+
 .text2{
-    min-height: 30vh;
-    max-height: 30vh;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.forms{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.formleft, .formright{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 1rem;
+    background-color: white;
+}
+
+#first_name, #last_name, #user_email, #user_password,#phone_number , #password_confirm{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 6px;
+    width: 200px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;;
+    font-size: 16px;
+}
+
+.formleft :focus, .formright :focus{
+    color: grey;
+    outline-color: blue;
+    box-shadow: 0 0 2px 0 lightblue;
+}
+
+.error{
+   background-color: #ff0000;
+}
+
+.username{
+    display: flex;
+}
+
+.text3{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+
+.Submitbtn{
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.Submitbtn:hover{
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+
+.logintext{
+    color: lightslategray;
 }
 
