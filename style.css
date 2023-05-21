@@ -1,0 +1,120 @@
+@font-face {
+    font-family: odinfont;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+
+body, html {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    background-image: url("images/max-lissenden-tKq5ghP7zzc-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 30%;
+    margin-right: auto;
+}
+
+.sidebar{
+    display: flex;
+    flex: 1;
+    font-family: odinfont;
+    background-color: black;
+    min-width: 30%;
+    min-height: 15vh;
+    position: fixed;
+    top: 12rem;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo, .odin {
+    display: flex;
+    align-items: center;
+}
+
+.odin {
+    font-size: 110px;
+    color: white;
+    margin-left: 16px;;
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    min-width: 30%;
+}
+
+.credits a{
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.credits a:hover{
+    color: #ff0000;
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 70%;
+    background-color: whitesmoke;
+}
+
+.text1{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    height: 30vh;
+    padding-left: 2rem;
+    padding-right: 16rem;
+    padding-top: 6rem;
+}
+
+.signup{
+    background-color:white;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.text2{
+    min-height: 30vh;
+    max-height: 30vh;
+}
+
